@@ -1,0 +1,524 @@
+<section class="hrzn-video" aria-label="Vídeo HRZN">
+  <div class="hrzn-video__wrap">
+    <div class="hrzn-video__card">
+      <div class="hrzn-video__media">
+        <video
+          class="hrzn-video__video"
+          preload="metadata"
+          playsinline
+          webkit-playsinline
+        >
+          <source src="https://horizonstudiosbr.com/wp-content/uploads/2026/02/copy_421C4815-ACFB-43DC-8002-B90752AFE2BE-1.mov" type="video/quicktime" />
+          <source src="https://horizonstudiosbr.com/wp-content/uploads/2026/02/copy_421C4815-ACFB-43DC-8002-B90752AFE2BE-1.mov" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+
+        <!-- Camada de reprodução -->
+        <button class="hrzn-video__bigplay" type="button" aria-label="Reproduzir vídeo">
+          <span class="hrzn-video__bigplay-icon" aria-hidden="true"></span>
+        </button>
+
+        <div class="hrzn-video__topbar" aria-hidden="true">
+          <span class="hrzn-video__pill">Horizon Interactive Studios • Showcase</span>
+          <span class="hrzn-video__hint">Clique para reproduzir</span>
+        </div>
+
+        <div class="hrzn-video__controls" role="group" aria-label="Controles do vídeo">
+          <button class="hrzn-video__btn hrzn-video__btn--play" type="button" aria-label="Reproduzir/Pausar">
+            <span class="icon icon--play" aria-hidden="true"></span>
+          </button>
+
+          <div class="hrzn-video__time">
+            <span class="hrzn-video__current" aria-label="Tempo atual">0:00</span>
+          </div>
+
+          <div class="hrzn-video__scrub" aria-label="Barra de progresso">
+            <input class="hrzn-video__range" type="range" min="0" max="1000" value="0" step="1" aria-label="Progresso do vídeo" />
+            <div class="hrzn-video__track" aria-hidden="true">
+              <div class="hrzn-video__fill"></div>
+              <div class="hrzn-video__thumb"></div>
+            </div>
+          </div>
+
+          <div class="hrzn-video__time">
+            <span class="hrzn-video__duration" aria-label="Duração total">0:00</span>
+          </div>
+
+          <button class="hrzn-video__btn hrzn-video__btn--mute" type="button" aria-label="Ativar/Desativar som">
+            <span class="icon icon--vol" aria-hidden="true"></span>
+          </button>
+
+          <div class="hrzn-video__vol">
+            <input class="hrzn-video__volrange" type="range" min="0" max="1" value="1" step="0.01" aria-label="Volume" />
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="hrzn-video__caption">
+        <div class="hrzn-video__caption-left">
+          <h3 class="hrzn-video__title">Apresentação Horizon Interactive Studios</h3>
+          <p class="hrzn-video__sub">
+            Tecnologia, Desenvolvimento e Inovação!
+          </p>
+        </div>
+        <div class="hrzn-video__caption-right">
+          <span class="hrzn-video__tag">Leve seu negócio para o próximo nível!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+
+    body {
+        background-color: black;
+    }
+    
+    /* Container principal */
+    .hrzn-video__wrap{
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 clamp(14px, 2.2vw, 24px);
+    }
+
+    .hrzn-video__card{
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.03);
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+    }
+
+    .hrzn-video__media{
+      position: relative;
+      aspect-ratio: 16/9;
+      background: #05070f;
+      overflow: hidden;
+    }
+
+    .hrzn-video__video{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      background: #05070f;
+    }
+
+    /* Barra superior */
+    .hrzn-video__topbar{
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      pointer-events: none;
+      z-index: 3;
+    }
+
+    .hrzn-video__pill{
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(0,170,255,0.10);
+      color: rgba(255,255,255,0.90);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: .3px;
+    }
+
+    .hrzn-video__hint{
+      color: rgba(255,255,255,0.75);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(0,0,0,0.22);
+      backdrop-filter: blur(10px);
+    }
+
+    /* Play central */
+    .hrzn-video__bigplay{
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      border: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.45));
+      cursor: pointer;
+      z-index: 2;
+      transition: opacity 180ms ease;
+    }
+
+    .hrzn-video__bigplay-icon{
+      width: 78px;
+      height: 78px;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.16);
+      background: rgba(0,170,255,0.16);
+      box-shadow: 0 18px 60px rgba(0,0,0,0.45);
+      backdrop-filter: blur(10px);
+      position: relative;
+    }
+
+    .hrzn-video__bigplay-icon::before{
+      content: "";
+      position: absolute;
+      left: 30px;
+      top: 22px;
+      width: 0;
+      height: 0;
+      border-left: 22px solid rgba(255,255,255,0.92);
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent;
+      filter: drop-shadow(0 10px 18px rgba(0,0,0,0.35));
+    }
+
+    /* Controles inferiores */
+    .hrzn-video__controls{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      display: grid;
+      grid-template-columns: auto auto 1fr auto auto auto;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 10px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(0,0,0,0.35);
+      backdrop-filter: blur(12px);
+      z-index: 4;
+    }
+
+    .hrzn-video__btn{
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.03);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease, filter 160ms ease;
+    }
+
+    .hrzn-video__btn:hover{
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(0,170,255,0.22);
+    }
+
+    .hrzn-video__btn:active{ transform: translateY(1px); }
+
+    .hrzn-video__time{
+      color: rgba(255,255,255,0.82);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .25px;
+      white-space: nowrap;
+    }
+
+    /* Scrub */
+    .hrzn-video__scrub{
+      position: relative;
+      height: 42px;
+      display: grid;
+      align-items: center;
+    }
+
+    .hrzn-video__range{
+      width: 100%;
+      height: 42px;
+      opacity: 0;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hrzn-video__track{
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.06);
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .hrzn-video__fill{
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #1E7BFF, #00D7FF);
+      border-radius: 999px;
+    }
+
+    .hrzn-video__thumb{
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translate(-50%, -50%);
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+      border: 2px solid rgba(0,170,255,0.35);
+    }
+
+    /* Volume */
+    .hrzn-video__vol{
+      width: 110px;
+      display: grid;
+      align-items: center;
+      height: 42px;
+    }
+
+    .hrzn-video__volrange{
+      width: 100%;
+      accent-color: #00aaff;
+      cursor: pointer;
+    }
+
+    /* Ícones */
+    .icon{ width: 18px; height: 18px; position: relative; display: block; }
+    .icon--play::before{
+      content:""; position:absolute; left: -5px; top: 3px;
+      width:0; height:0;
+      border-left: 10px solid rgba(255,255,255,0.92);
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+    }
+    .icon--pause::before, .icon--pause::after{
+      content:""; position:absolute; left: -10px; top:3px; width:5px; height:12px;
+      background: rgba(255,255,255,0.92); border-radius: 2px;
+    }
+    .icon--pause::before{ left:4px; }
+    .icon--pause::after{ right:4px; }
+
+    .icon--vol::before{
+      content:""; position:absolute; left: -5px; top:6px;
+      width: 6px; height: 6px;
+      background: rgba(255,255,255,0.92);
+      clip-path: polygon(0 30%, 45% 30%, 75% 0, 75% 100%, 45% 70%, 0 70%);
+    }
+    .icon--vol::after{
+      content:""; position:absolute; left: -5px; top:5px;
+      width: 6px; height: 8px;
+      border: 2px solid rgba(255,255,255,0.70);
+      border-left: 0;
+      border-radius: 0 10px 10px 0;
+      transform: scale(0.9);
+    }
+
+    .icon--mute::before, .icon--mute::after{
+      content:""; position:absolute; left:3px; top:3px;
+      width: 12px; height: 12px;
+      border-top: 2px solid rgba(255,255,255,0.88);
+      transform: rotate(45deg);
+    }
+    .icon--mute::after{
+      transform: rotate(-45deg);
+    }
+
+    .icon--fs::before{
+      content:""; position:absolute; inset: 2px;
+      border: 2px solid rgba(255,255,255,0.85);
+      border-radius: 4px;
+    }
+
+    /* Caption */
+    .hrzn-video__caption{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      border-top: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .hrzn-video__title{
+      font-size: 14px;
+      letter-spacing: -0.2px;
+      color: rgba(255,255,255,0.92);
+      margin-bottom: 4px;
+      font-weight: 900;
+    }
+
+    .hrzn-video__sub{
+      margin: 0;
+      font-size: 13px;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.55;
+      max-width: 80ch;
+    }
+
+    .hrzn-video__caption-right{
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .hrzn-video__tag{
+      display: inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(0,170,255,0.08);
+      color: rgba(255,255,255,0.82);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .2px;
+    }
+
+    /* Oculta controles nativos em navegadores compatíveis */
+    video::-webkit-media-controls { display:none !important; }
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hrzn-video__controls{
+        grid-template-columns: auto auto 1fr auto auto;
+      }
+      .hrzn-video__vol{ display:none; }
+    }
+    @media (max-width: 520px){
+      .hrzn-video__controls{
+        left: 8px; right: 8px; bottom: 8px;
+        padding: 8px;
+        gap: 8px;
+      }
+      .hrzn-video__btn{ width: 40px; height: 40px; border-radius: 12px; }
+      .hrzn-video__time{ display:none; }
+      .hrzn-video__topbar{ display:none; }
+      .hrzn-video__bigplay-icon{ width: 66px; height: 66px; border-radius: 18px; }
+      .hrzn-video__bigplay-icon::before{ left: 26px; top: 19px; border-left-width: 20px; }
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      .hrzn-video__btn, .hrzn-video__bigplay{ transition:none; }
+    }
+  </style>
+
+  <script>
+    (function(){
+      const root = document.currentScript.closest('.hrzn-video');
+      const video = root.querySelector('.hrzn-video__video');
+      const bigPlay = root.querySelector('.hrzn-video__bigplay');
+      const playBtn = root.querySelector('.hrzn-video__btn--play');
+      const muteBtn = root.querySelector('.hrzn-video__btn--mute');
+      const fsBtn = root.querySelector('.hrzn-video__btn--fs');
+      const range = root.querySelector('.hrzn-video__range');
+      const fill = root.querySelector('.hrzn-video__fill');
+      const thumb = root.querySelector('.hrzn-video__thumb');
+      const volRange = root.querySelector('.hrzn-video__volrange');
+      const curEl = root.querySelector('.hrzn-video__current');
+      const durEl = root.querySelector('.hrzn-video__duration');
+
+      const playIcon = playBtn.querySelector('.icon');
+
+      function fmt(t){
+        if (!isFinite(t)) return "0:00";
+        const m = Math.floor(t/60);
+        const s = Math.floor(t%60);
+        return `${m}:${String(s).padStart(2,'0')}`;
+      }
+
+      function setPlayUI(isPlaying){
+        bigPlay.style.opacity = isPlaying ? "0" : "1";
+        bigPlay.style.pointerEvents = isPlaying ? "none" : "auto";
+        playIcon.classList.toggle('icon--pause', isPlaying);
+        playIcon.classList.toggle('icon--play', !isPlaying);
+      }
+
+      function syncProgress(){
+        const d = video.duration || 0;
+        const c = video.currentTime || 0;
+        const pct = d ? (c/d) : 0;
+        const v = Math.round(pct * 1000);
+        range.value = String(v);
+        fill.style.width = (pct*100).toFixed(3) + "%";
+        thumb.style.left = (pct*100).toFixed(3) + "%";
+        curEl.textContent = fmt(c);
+        durEl.textContent = fmt(d);
+      }
+
+      function togglePlay(){
+        if (video.paused) video.play().catch(()=>{});
+        else video.pause();
+      }
+
+      // Ícone inicial
+      playIcon.classList.add('icon--play');
+
+      bigPlay.addEventListener('click', togglePlay);
+      playBtn.addEventListener('click', togglePlay);
+      video.addEventListener('click', togglePlay);
+
+      video.addEventListener('play', () => setPlayUI(true));
+      video.addEventListener('pause', () => setPlayUI(false));
+      video.addEventListener('timeupdate', syncProgress);
+      video.addEventListener('loadedmetadata', syncProgress);
+      video.addEventListener('durationchange', syncProgress);
+
+      range.addEventListener('input', () => {
+        const d = video.duration || 0;
+        const pct = (Number(range.value) / 1000);
+        video.currentTime = pct * d;
+        syncProgress();
+      });
+
+      // Volume
+      if (volRange){
+        volRange.addEventListener('input', () => {
+          video.volume = Number(volRange.value);
+          video.muted = video.volume === 0;
+          muteBtn.querySelector('.icon').className = 'icon ' + (video.muted ? 'icon--mute' : 'icon--vol');
+        });
+      }
+
+      muteBtn.addEventListener('click', () => {
+        video.muted = !video.muted;
+        muteBtn.querySelector('.icon').className = 'icon ' + (video.muted ? 'icon--mute' : 'icon--vol');
+        if (volRange && !video.muted && video.volume === 0){
+          video.volume = 0.8;
+          volRange.value = "0.8";
+        }
+      });
+
+      // Fullscreen
+      if (fsBtn){
+        fsBtn.addEventListener('click', async () => {
+          const el = root.querySelector('.hrzn-video__media');
+          try{
+            if (document.fullscreenElement) await document.exitFullscreen();
+            else await el.requestFullscreen();
+          }catch(e){}
+        });
+      }
+
+      // Teclado
+      root.addEventListener('keydown', (e) => {
+        if (e.code === 'Space' || e.code === 'Enter'){
+          e.preventDefault();
+          togglePlay();
+        }
+      });
+
+      // Estado inicial
+      setPlayUI(false);
+      syncProgress();
+    })();
+  </script>
+</section>
