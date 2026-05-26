@@ -1,0 +1,30 @@
+{
+  "bills": [
+    {
+      "id": "bill_mmzr0qau_83n257",
+      "name": "Enel",
+      "categoryId": "cat_residencia",
+      "amountCents": 9826,
+      "dueDate": "2026-03-30",
+      "status": "paid",
+      "paidAt": "2026-05-26T05:47:22.226Z",
+      "paidDate": "2026-05-26",
+      "expenseId": "exp_mpm7r0mp_1mzu4h",
+      "createdAt": "2026-03-21T03:08:41.382Z",
+      "updatedAt": "2026-05-26T05:47:22.226Z"
+    },
+    {
+      "id": "bill_mm4v33id_3vfpsv",
+      "name": "Internet Vivo 600mbs",
+      "categoryId": "cat_residencia",
+      "amountCents": 15871,
+      "dueDate": "2026-03-02",
+      "status": "paid",
+      "paidAt": "2026-03-21T03:08:24.880Z",
+      "paidDate": "2026-03-21",
+      "expenseId": "exp_mmzr0dke_ak3v49",
+      "createdAt": "2026-02-27T12:21:38.821Z",
+      "updatedAt": "2026-03-21T03:08:24.880Z"
+    }
+  ]
+}

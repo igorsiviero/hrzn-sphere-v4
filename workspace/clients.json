@@ -1,0 +1,129 @@
+{
+  "clients": [
+    {
+      "id": "cli_mm3guqzm_yvlhd9",
+      "name": "Defendy",
+      "doc": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "status": "ativo",
+      "createdAt": "2026-02-26T12:55:28.546Z",
+      "updatedAt": "2026-03-11T17:55:36.816Z",
+      "attachments": [
+        {
+          "id": "file_mm9ixtko_f74p1z",
+          "name": "Contrato de PrestaÃ§Ã£o de ServiÃ§os _ Jean Carlos TarÃ³logo.pdf",
+          "type": "anexo",
+          "filename": "2026-03-02T18-40-28-150Z__Contrato de PrestaÃ§Ã£o de ServiÃ§os _ Jean Carlos TarÃ³logo.pdf",
+          "relPath": "uploads/cli_mm3guqzm_yvlhd9/2026-03-02T18-40-28-150Z__Contrato de PrestaÃ§Ã£o de ServiÃ§os _ Jean Carlos TarÃ³logo.pdf",
+          "uploadedAt": "2026-03-02T18:40:28.152Z"
+        },
+        {
+          "id": "file_mm5bpyc3_zl66qg",
+          "name": "JOURNAL (4) (1).png",
+          "type": "anexo",
+          "filename": "2026-02-27T20-07-19-057Z__JOURNAL (4) (1).png",
+          "relPath": "uploads/cli_mm3guqzm_yvlhd9/2026-02-27T20-07-19-057Z__JOURNAL (4) (1).png",
+          "uploadedAt": "2026-02-27T20:07:19.059Z"
+        }
+      ],
+      "contractValueCents": 145000,
+      "contractMonthlyValues": {}
+    },
+    {
+      "id": "cli_mlq6pc4a_et4bgn",
+      "name": "Jean Carlos Tarólogo",
+      "doc": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "status": "ativo",
+      "createdAt": "2026-02-17T05:50:19.546Z",
+      "updatedAt": "2026-03-03T10:38:34.640Z",
+      "attachments": []
+    },
+    {
+      "id": "cli_mloq1tv4_vesvkp",
+      "name": "Proarte Papelaria",
+      "doc": "",
+      "email": "",
+      "phone": "5511989686995",
+      "address": "",
+      "notes": "",
+      "status": "negociacao",
+      "createdAt": "2026-02-16T05:16:22.768Z",
+      "updatedAt": "2026-03-11T17:55:20.108Z",
+      "attachments": [],
+      "contractValueCents": 80000,
+      "contractMonthlyValues": {}
+    },
+    {
+      "id": "cli_mloq0bh6_eu0k4g",
+      "name": "HelmX",
+      "doc": "",
+      "email": "",
+      "phone": "5511965975465",
+      "address": "",
+      "notes": "Devolução de R$240,00",
+      "status": "rescindido",
+      "createdAt": "2026-02-16T05:15:12.282Z",
+      "updatedAt": "2026-03-11T17:55:51.852Z",
+      "attachments": [],
+      "contractValueCents": 40000,
+      "contractMonthlyValues": {}
+    },
+    {
+      "id": "cli_mlopzlll_ja2s4s",
+      "name": "Copos Verdes Biodegradáveis",
+      "doc": "",
+      "email": "",
+      "phone": "5519999250580",
+      "address": "",
+      "notes": "",
+      "status": "negociacao",
+      "createdAt": "2026-02-16T05:14:38.745Z",
+      "updatedAt": "2026-03-03T10:38:39.092Z",
+      "attachments": []
+    },
+    {
+      "id": "cli_mlopyzo4_bg4g7f",
+      "name": "Luma Arte em Prata",
+      "doc": "",
+      "email": "",
+      "phone": "5511966716835",
+      "address": "",
+      "notes": "",
+      "status": "ativo",
+      "createdAt": "2026-02-16T05:14:10.324Z",
+      "updatedAt": "2026-02-16T05:14:10.324Z",
+      "attachments": []
+    },
+    {
+      "id": "cli_mlopx43e_8v64t1",
+      "name": "Marsala Orquestra",
+      "doc": "",
+      "email": "",
+      "phone": "5511921965793",
+      "address": "",
+      "notes": "",
+      "status": "ativo",
+      "createdAt": "2026-02-16T05:12:42.746Z",
+      "updatedAt": "2026-03-11T17:56:03.381Z",
+      "attachments": [
+        {
+          "id": "file_mloqdrct_jo5yld",
+          "name": "Complete_with_Docusign_CONTRATO_DE_PRESTAÃA.pdf",
+          "type": "contrato",
+          "filename": "2026-02-16T05-25-39-388Z__Complete_with_Docusign_CONTRATO_DE_PRESTAÃA.pdf",
+          "relPath": "uploads/cli_mlopx43e_8v64t1/2026-02-16T05-25-39-388Z__Complete_with_Docusign_CONTRATO_DE_PRESTAÃA.pdf",
+          "uploadedAt": "2026-02-16T05:25:39.389Z"
+        }
+      ],
+      "contractValueCents": 80000,
+      "contractMonthlyValues": {}
+    }
+  ]
+}

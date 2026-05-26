@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "id": "aud_mpm7r0mr_9jx34m",
+      "at": "2026-05-26T05:47:22.227Z",
+      "action": "api.put",
+      "entity": "/api/bills/bill_mmzr0qau_83n257",
+      "userId": "usr_mp1c3lbk_d3rzlx",
+      "userEmail": "igorsiviero@gmail.com",
+      "ip": "::1",
+      "details": {
+        "statusCode": 200
+      }
+    },
+    {
+      "id": "aud_mpm7qlmn_a44lv7",
+      "at": "2026-05-26T05:47:02.783Z",
+      "action": "auth.login",
+      "entity": "user",
+      "userId": "usr_mp1c3lbk_d3rzlx",
+      "userEmail": "igorsiviero@gmail.com",
+      "ip": "::1",
+      "details": {
+        "userId": "usr_mp1c3lbk_d3rzlx"
+      }
+    },
+    {
+      "id": "aud_mp1c3lbp_dvptni",
+      "at": "2026-05-11T15:05:57.685Z",
+      "action": "auth.setup",
+      "entity": "user",
+      "userId": "usr_mp1c3lbk_d3rzlx",
+      "userEmail": "igorsiviero@gmail.com",
+      "ip": "::1",
+      "details": {
+        "userId": "usr_mp1c3lbk_d3rzlx",
+        "email": "igorsiviero@gmail.com"
+      }
+    }
+  ]
+}

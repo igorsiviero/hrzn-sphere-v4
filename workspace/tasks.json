@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "statuses": [
+      {
+        "id": "st_todo",
+        "name": "A fazer",
+        "color": "#3B82F6"
+      },
+      {
+        "id": "st_pending",
+        "name": "Pendente",
+        "color": "#F59E0B"
+      },
+      {
+        "id": "st_progress",
+        "name": "Em andamento",
+        "color": "#8B5CF6"
+      },
+      {
+        "id": "st_done",
+        "name": "Concluída",
+        "color": "#22C55E"
+      }
+    ],
+    "priorities": [
+      {
+        "id": "pr_low",
+        "name": "Baixa",
+        "color": "#60A5FA"
+      },
+      {
+        "id": "pr_med",
+        "name": "Média",
+        "color": "#F59E0B"
+      },
+      {
+        "id": "pr_high",
+        "name": "Alta",
+        "color": "#EF4444"
+      },
+      {
+        "id": "pr_urgent",
+        "name": "Urgente",
+        "color": "#DC2626"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "tsk_mmc0p2cr_pokcsq",
+      "title": "Análise de Temas e Concorrência | Oráculos Luz do Sol",
+      "description": "",
+      "statusId": "st_progress",
+      "priorityId": "pr_med",
+      "assignee": "Igor",
+      "dueDate": "04/03/2026",
+      "createdAt": "2026-03-04T12:33:05.067Z",
+      "updatedAt": "2026-03-04T12:33:30.476Z",
+      "subtasks": [],
+      "comments": [],
+      "updates": []
+    },
+    {
+      "id": "tsk_mmc0oc6c_q9lm4u",
+      "title": "Reestruturação Redes Sociais LUMA ARTE EM PRATA",
+      "description": "",
+      "statusId": "st_progress",
+      "priorityId": "pr_med",
+      "assignee": "",
+      "dueDate": "",
+      "createdAt": "2026-03-04T12:32:31.140Z",
+      "updatedAt": "2026-03-04T12:32:31.140Z",
+      "subtasks": [],
+      "comments": [],
+      "updates": []
+    },
+    {
+      "id": "tsk_mmahbhny_vfwvki",
+      "title": "Arte 2 Marsala",
+      "assignee": "",
+      "statusId": "st_todo",
+      "priorityId": "pr_low",
+      "dueDate": "2026-03-31",
+      "description": "",
+      "subtasks": [],
+      "comments": [],
+      "updates": [],
+      "createdAt": "2026-03-03T10:42:52.846Z",
+      "updatedAt": "2026-03-03T21:28:42.133Z"
+    },
+    {
+      "id": "tsk_mmahbcbj_ceg927",
+      "title": "Arte 1 Marsala",
+      "assignee": "",
+      "statusId": "st_pending",
+      "priorityId": "pr_low",
+      "dueDate": "2026-03-31",
+      "description": "",
+      "subtasks": [],
+      "comments": [],
+      "updates": [],
+      "createdAt": "2026-03-03T10:42:45.919Z",
+      "updatedAt": "2026-03-04T12:32:01.257Z"
+    },
+    {
+      "id": "tsk_mmahb731_m5ct4z",
+      "title": "Vídeo 2 Marsala",
+      "assignee": "",
+      "statusId": "st_todo",
+      "priorityId": "pr_low",
+      "dueDate": "2026-03-31",
+      "description": "",
+      "subtasks": [],
+      "comments": [],
+      "updates": [],
+      "createdAt": "2026-03-03T10:42:39.133Z",
+      "updatedAt": "2026-03-03T10:42:39.133Z"
+    },
+    {
+      "id": "tsk_mmahb1co_mg54py",
+      "title": "Vídeo 1 Marsala",
+      "assignee": "",
+      "statusId": "st_pending",
+      "priorityId": "pr_low",
+      "dueDate": "2026-03-31",
+      "description": "",
+      "subtasks": [],
+      "comments": [],
+      "updates": [],
+      "createdAt": "2026-03-03T10:42:31.704Z",
+      "updatedAt": "2026-03-04T12:32:02.640Z"
+    },
+    {
+      "id": "tsk_mmagxyb6_cr0fog",
+      "title": "Planejamento Semana (Jean Carlos Tarólogo)",
+      "assignee": "Igor",
+      "statusId": "st_done",
+      "priorityId": "pr_high",
+      "dueDate": "2026-03-03",
+      "description": "",
+      "subtasks": [],
+      "comments": [],
+      "updates": [
+        {
+          "id": "upd_1772546909725_dzuxp",
+          "text": "Status alterado: Em andamento → Concluída",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-03-03T14:08:29.725Z"
+        },
+        {
+          "id": "upd_1772534531335_bjbvu",
+          "text": "Status alterado: A fazer → Em andamento",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-03-03T10:42:11.335Z"
+        }
+      ],
+      "createdAt": "2026-03-03T10:32:21.234Z",
+      "updatedAt": "2026-03-03T14:08:29.729Z"
+    },
+    {
+      "id": "tsk_mmagwwn9_ctecjk",
+      "title": "Estudar Concorrência e Tendências (Jean Carlos Tarólogo)",
+      "assignee": "Igor",
+      "statusId": "st_done",
+      "priorityId": "pr_high",
+      "dueDate": "2026-03-03",
+      "description": "Estudar Concorrência e Tendências (Jean Carlos Tarólogo)",
+      "subtasks": [],
+      "comments": [],
+      "updates": [
+        {
+          "id": "upd_1772546909092_wz2as",
+          "text": "Status alterado: Pendente → Concluída",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-03-03T14:08:29.092Z"
+        },
+        {
+          "id": "upd_1772534533331_llrm4",
+          "text": "Status alterado: A fazer → Pendente",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-03-03T10:42:13.331Z"
+        }
+      ],
+      "createdAt": "2026-03-03T10:31:32.421Z",
+      "updatedAt": "2026-03-03T14:08:29.098Z"
+    },
+    {
+      "id": "tsk_mm5as248_ukcbmt",
+      "title": "Criar Flyer Marsala",
+      "assignee": "Igor",
+      "statusId": "st_progress",
+      "priorityId": "pr_med",
+      "dueDate": "2026-03-10",
+      "description": "Realizar um Flyer para divulgação da Marsala",
+      "subtasks": [
+        {
+          "id": "sub_1772221320621_yl9x1",
+          "title": "10x15",
+          "done": false
+        },
+        {
+          "id": "sub_1772221323639_xkn9y",
+          "title": "20x15",
+          "done": false
+        }
+      ],
+      "comments": [],
+      "updates": [
+        {
+          "id": "upd_1772534526596_zr8ub",
+          "text": "Status alterado: A fazer → Pendente",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-03-03T10:42:06.596Z"
+        },
+        {
+          "id": "upd_1772228806665_079i5",
+          "text": "Status alterado: Em andamento → A fazer",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T21:46:46.665Z"
+        },
+        {
+          "id": "upd_1772223394602_j3hrd",
+          "text": "Status alterado: A fazer → Em andamento",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T20:16:34.602Z"
+        },
+        {
+          "id": "upd_1772223393712_tpeqz",
+          "text": "Status alterado: Em andamento → A fazer",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T20:16:33.712Z"
+        },
+        {
+          "id": "upd_1772223392695_hfkq6",
+          "text": "Status alterado: Pendente → Em andamento",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T20:16:32.695Z"
+        },
+        {
+          "id": "upd_1772223391825_ny65n",
+          "text": "Status alterado: A fazer → Pendente",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T20:16:31.825Z"
+        },
+        {
+          "id": "upd_1772221265303_56iy5",
+          "text": "Status alterado: Pendente → A fazer",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T19:41:05.303Z"
+        },
+        {
+          "id": "upd_1772221264082_53mlj",
+          "text": "Status alterado: A fazer → Pendente",
+          "author": "Igor Siviero Nogueira",
+          "createdAt": "2026-02-27T19:41:04.082Z"
+        }
+      ],
+      "createdAt": "2026-02-27T19:40:57.656Z",
+      "updatedAt": "2026-03-04T12:31:58.422Z"
+    }
+  ]
+}

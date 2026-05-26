@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "usr_mp1c3lbk_d3rzlx",
+      "name": "Igor",
+      "email": "igorsiviero@gmail.com",
+      "role": "admin",
+      "active": true,
+      "passwordHash": "scrypt:40ac94ff12bf3b9ffe4844f41a73a47b:b46caa584116ad5ab0d7fbcb03d72261445680b0f4e33ee4a59c5068f63184135df505f6d3ed40be75d4f3e2a0c8ab34b24732ca5a885d8b36c1a60807c8327a",
+      "createdAt": "2026-05-11T15:05:57.680Z",
+      "updatedAt": "2026-05-26T05:47:02.777Z",
+      "lastLoginAt": "2026-05-26T05:47:02.777Z"
+    }
+  ]
+}

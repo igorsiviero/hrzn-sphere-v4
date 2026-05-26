@@ -1,0 +1,69 @@
+{
+  "receivables": [
+    {
+      "id": "recv_mmmf0dm3_076zyq",
+      "clientId": "cli_mlopx43e_8v64t1",
+      "clientName": "Marsala Orquestra",
+      "categoryId": "",
+      "amountCents": 6500,
+      "dueDate": "2026-03-10",
+      "status": "received",
+      "receivedAt": "2026-03-11T19:11:32.783Z",
+      "receivedDate": "2026-03-11",
+      "createdAt": "2026-03-11T19:11:29.259Z",
+      "updatedAt": "2026-03-11T19:11:32.783Z"
+    },
+    {
+      "id": "recv_mmmezczd_b1i1nz",
+      "clientId": "cli_mlq6pc4a_et4bgn",
+      "clientName": "Jean Carlos Tarólogo",
+      "categoryId": "",
+      "amountCents": 26600,
+      "dueDate": "2026-03-31",
+      "status": "pending",
+      "receivedAt": null,
+      "receivedDate": null,
+      "createdAt": "2026-03-11T19:10:41.785Z",
+      "updatedAt": "2026-03-11T19:10:41.785Z"
+    },
+    {
+      "id": "recv_mmmeyyx9_fxdmj1",
+      "clientId": "cli_mlq6pc4a_et4bgn",
+      "clientName": "Jean Carlos Tarólogo",
+      "categoryId": "",
+      "amountCents": 26600,
+      "dueDate": "2026-03-15",
+      "status": "received",
+      "receivedAt": "2026-03-13T20:37:31.526Z",
+      "receivedDate": "2026-03-13",
+      "createdAt": "2026-03-11T19:10:23.565Z",
+      "updatedAt": "2026-03-13T20:37:31.526Z"
+    },
+    {
+      "id": "recv_mmmexvu9_44sc3t",
+      "clientId": "cli_mlopx43e_8v64t1",
+      "clientName": "Marsala Orquestra",
+      "categoryId": "",
+      "amountCents": 40000,
+      "dueDate": "2026-03-31",
+      "status": "pending",
+      "receivedAt": null,
+      "receivedDate": null,
+      "createdAt": "2026-03-11T19:09:32.914Z",
+      "updatedAt": "2026-03-11T19:09:32.914Z"
+    },
+    {
+      "id": "recv_mmmewgvq_ez8kz7",
+      "clientId": "cli_mlq6pc4a_et4bgn",
+      "clientName": "Jean Carlos Tarólogo",
+      "categoryId": "",
+      "amountCents": 26800,
+      "dueDate": "2026-03-02",
+      "status": "received",
+      "receivedAt": "2026-03-11T19:08:46.939Z",
+      "receivedDate": "2026-03-11",
+      "createdAt": "2026-03-11T19:08:26.870Z",
+      "updatedAt": "2026-03-11T19:08:46.939Z"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "settings": {
+    "monthlyBudgetCents": 1000000,
+    "currency": "BRL"
+  },
+  "categories": [
+    {
+      "id": "cat_mn032lyk_cl9i10",
+      "name": "Mercado",
+      "color": "#a855f7",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_mmagzb93_e5vm48",
+      "name": "Shopee",
+      "color": "#ffc800",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_mm5c5asd_a1t51d",
+      "name": "Jogos",
+      "color": "#0f354d",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_mm4vbix3_dsdu6t",
+      "name": "Saúde",
+      "color": "#f97316",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_mm4va8m8_fwxow2",
+      "name": "HRZN",
+      "color": "#a855f7",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_mm29cdd6_rgh95s",
+      "name": "Thor e Loki",
+      "color": "#00e1ff",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_alimentacao",
+      "name": "Alimentação",
+      "color": "#3B82F6",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_transporte",
+      "name": "Transporte",
+      "color": "#22C55E",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_residencia",
+      "name": "Residência",
+      "color": "#F97316",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_lazer",
+      "name": "Lazer",
+      "color": "#A855F7",
+      "budgetCents": 0
+    },
+    {
+      "id": "cat_assinaturas",
+      "name": "Assinaturas",
+      "color": "#EF4444",
+      "budgetCents": 0
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_mpm7r0mp_1mzu4h",
+      "name": "Enel",
+      "categoryId": "cat_residencia",
+      "amountCents": 9826,
+      "date": "2026-05-26",
+      "sourceBillId": "bill_mmzr0qau_83n257",
+      "createdAt": "2026-05-26T05:47:22.225Z",
+      "updatedAt": "2026-05-26T05:47:22.225Z"
+    },
+    {
+      "id": "exp_mn037wgc_shkk6p",
+      "name": "Kit Faca",
+      "categoryId": "cat_mmagzb93_e5vm48",
+      "amountCents": 2850,
+      "date": "2026-03-05",
+      "createdAt": "2026-03-21T08:50:11.340Z",
+      "updatedAt": "2026-03-21T08:50:11.340Z"
+    },
+    {
+      "id": "exp_mn037gcf_i07r1p",
+      "name": "Hirota",
+      "categoryId": "cat_mn032lyk_cl9i10",
+      "amountCents": 3067,
+      "date": "2026-03-05",
+      "createdAt": "2026-03-21T08:49:50.463Z",
+      "updatedAt": "2026-03-21T08:49:50.463Z"
+    },
+    {
+      "id": "exp_mn036mto_6a1sdo",
+      "name": "Sushi Bar Hagaki",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 1289,
+      "date": "2026-03-06",
+      "createdAt": "2026-03-21T08:49:12.204Z",
+      "updatedAt": "2026-03-21T08:49:12.204Z"
+    },
+    {
+      "id": "exp_mn035utw_0pf7ea",
+      "name": "Mercado",
+      "categoryId": "cat_mn032lyk_cl9i10",
+      "amountCents": 2809,
+      "date": "2026-03-01",
+      "createdAt": "2026-03-21T08:48:35.924Z",
+      "updatedAt": "2026-03-21T08:48:35.924Z"
+    },
+    {
+      "id": "exp_mn035kvb_vlsf72",
+      "name": "Mercado",
+      "categoryId": "cat_mn032lyk_cl9i10",
+      "amountCents": 3251,
+      "date": "2026-03-09",
+      "createdAt": "2026-03-21T08:48:23.015Z",
+      "updatedAt": "2026-03-21T08:48:23.015Z"
+    },
+    {
+      "id": "exp_mn0356i4_soklfk",
+      "name": "Ração",
+      "categoryId": "cat_mm29cdd6_rgh95s",
+      "amountCents": 3241,
+      "date": "2026-03-16",
+      "createdAt": "2026-03-21T08:48:04.396Z",
+      "updatedAt": "2026-03-21T08:48:04.396Z"
+    },
+    {
+      "id": "exp_mn034qgp_dw0x34",
+      "name": "Ração",
+      "categoryId": "cat_mm29cdd6_rgh95s",
+      "amountCents": 3265,
+      "date": "2026-03-10",
+      "createdAt": "2026-03-21T08:47:43.609Z",
+      "updatedAt": "2026-03-21T08:47:43.609Z"
+    },
+    {
+      "id": "exp_mn034ay6_vhrptx",
+      "name": "Mercado",
+      "categoryId": "cat_mn032lyk_cl9i10",
+      "amountCents": 2686,
+      "date": "2026-03-10",
+      "createdAt": "2026-03-21T08:47:23.502Z",
+      "updatedAt": "2026-03-21T08:47:23.502Z"
+    },
+    {
+      "id": "exp_mn033331_bam34q",
+      "name": "Mercado",
+      "categoryId": "cat_mn032lyk_cl9i10",
+      "amountCents": 5510,
+      "date": "2026-03-16",
+      "createdAt": "2026-03-21T08:46:26.653Z",
+      "updatedAt": "2026-03-21T08:49:23.162Z"
+    },
+    {
+      "id": "exp_mn0326v2_tt9loy",
+      "name": "Burger King",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 2075,
+      "date": "2026-03-15",
+      "createdAt": "2026-03-21T08:45:44.894Z",
+      "updatedAt": "2026-03-21T08:45:44.894Z"
+    },
+    {
+      "id": "exp_mn031q6h_wq0r3i",
+      "name": "99 POP",
+      "categoryId": "cat_transporte",
+      "amountCents": 2680,
+      "date": "2026-03-14",
+      "createdAt": "2026-03-21T08:45:23.273Z",
+      "updatedAt": "2026-03-21T08:49:29.185Z"
+    },
+    {
+      "id": "exp_mn030wzy_f3qjoc",
+      "name": "FC 26 - Steam",
+      "categoryId": "cat_mm5c5asd_a1t51d",
+      "amountCents": 9403,
+      "date": "2026-03-15",
+      "createdAt": "2026-03-21T08:44:45.454Z",
+      "updatedAt": "2026-03-21T08:44:52.568Z"
+    },
+    {
+      "id": "exp_mn0308hm_9edyrh",
+      "name": "Neosoro",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 1198,
+      "date": "2026-03-16",
+      "createdAt": "2026-03-21T08:44:13.690Z",
+      "updatedAt": "2026-03-21T08:44:13.690Z"
+    },
+    {
+      "id": "exp_mn02zs3f_b75g7e",
+      "name": "Kit Ferramentas + Toalha de Mesa",
+      "categoryId": "cat_mmagzb93_e5vm48",
+      "amountCents": 4150,
+      "date": "2026-03-16",
+      "createdAt": "2026-03-21T08:43:52.443Z",
+      "updatedAt": "2026-03-21T08:43:52.443Z"
+    },
+    {
+      "id": "exp_mmzr0dke_ak3v49",
+      "name": "Internet Vivo 600mbs",
+      "categoryId": "cat_residencia",
+      "amountCents": 18267,
+      "date": "2026-03-21",
+      "sourceBillId": "bill_mm4v33id_3vfpsv",
+      "createdAt": "2026-03-21T03:08:24.878Z",
+      "updatedAt": "2026-03-21T08:46:46.990Z"
+    },
+    {
+      "id": "exp_mmah38zt_3jjjue",
+      "name": "Berotec",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 2810,
+      "date": "2026-03-02",
+      "createdAt": "2026-03-03T10:36:28.361Z",
+      "updatedAt": "2026-03-03T10:36:40.066Z"
+    },
+    {
+      "id": "exp_mmah0gb5_o47kdl",
+      "name": "Kit Pia Cozinha 4 Peças",
+      "categoryId": "cat_mmagzb93_e5vm48",
+      "amountCents": 3590,
+      "date": "2026-03-03",
+      "createdAt": "2026-03-03T10:34:17.873Z",
+      "updatedAt": "2026-03-03T10:37:02.331Z"
+    },
+    {
+      "id": "exp_mmah03tn_qjowjw",
+      "name": "Conjunto 7 Peças (facas e tábuas)",
+      "categoryId": "cat_mmagzb93_e5vm48",
+      "amountCents": 2999,
+      "date": "2026-03-03",
+      "createdAt": "2026-03-03T10:34:01.691Z",
+      "updatedAt": "2026-03-03T10:34:38.747Z"
+    },
+    {
+      "id": "exp_mmagz2lg_69rrun",
+      "name": "Kit 20 Potes Marmita",
+      "categoryId": "cat_mmagzb93_e5vm48",
+      "amountCents": 4297,
+      "date": "2026-02-26",
+      "createdAt": "2026-03-03T10:33:13.444Z",
+      "updatedAt": "2026-03-03T10:35:13.583Z"
+    },
+    {
+      "id": "exp_mm4vddld_wo7dch",
+      "name": "Remédios",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 2810,
+      "date": "2026-02-05",
+      "createdAt": "2026-02-27T12:29:38.449Z",
+      "updatedAt": "2026-02-27T12:29:38.449Z"
+    },
+    {
+      "id": "exp_mm4vcu14_gf4upf",
+      "name": "Remédios",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 971,
+      "date": "2026-02-10",
+      "createdAt": "2026-02-27T12:29:13.096Z",
+      "updatedAt": "2026-02-27T12:29:13.096Z"
+    },
+    {
+      "id": "exp_mm4vcihm_usa9gb",
+      "name": "Remédios",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 2810,
+      "date": "2026-02-13",
+      "createdAt": "2026-02-27T12:28:58.138Z",
+      "updatedAt": "2026-02-27T12:28:58.138Z"
+    },
+    {
+      "id": "exp_mm4vc7a2_jydvo8",
+      "name": "Remédios",
+      "categoryId": "cat_mm4vbix3_dsdu6t",
+      "amountCents": 3781,
+      "date": "2026-02-23",
+      "createdAt": "2026-02-27T12:28:43.610Z",
+      "updatedAt": "2026-02-27T12:28:43.610Z"
+    },
+    {
+      "id": "exp_mm4vamju_49py17",
+      "name": "HelmX",
+      "categoryId": "cat_mm4va8m8_fwxow2",
+      "amountCents": 24000,
+      "date": "2026-02-27",
+      "createdAt": "2026-02-27T12:27:30.090Z",
+      "updatedAt": "2026-02-27T12:27:55.598Z"
+    },
+    {
+      "id": "exp_mm4v9qkz_r7hnha",
+      "name": "Areia Biodegradável",
+      "categoryId": "cat_mm29cdd6_rgh95s",
+      "amountCents": 6790,
+      "date": "2026-02-25",
+      "createdAt": "2026-02-27T12:26:48.659Z",
+      "updatedAt": "2026-02-27T12:26:48.659Z"
+    },
+    {
+      "id": "exp_mm4v8qr4_mualbc",
+      "name": "Comida Japonesa",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 3089,
+      "date": "2026-02-03",
+      "createdAt": "2026-02-27T12:26:02.224Z",
+      "updatedAt": "2026-02-27T12:26:02.224Z"
+    },
+    {
+      "id": "exp_mm4v7vc0_smrp5p",
+      "name": "Marmita",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 2239,
+      "date": "2026-02-06",
+      "createdAt": "2026-02-27T12:25:21.504Z",
+      "updatedAt": "2026-02-27T12:25:21.504Z"
+    },
+    {
+      "id": "exp_mm4v69pz_tdbi12",
+      "name": "Marmita",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 2098,
+      "date": "2026-02-17",
+      "createdAt": "2026-02-27T12:24:06.839Z",
+      "updatedAt": "2026-02-27T12:24:51.323Z"
+    },
+    {
+      "id": "exp_mm3gzw2c_ed9fxl",
+      "name": "Mercado",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 11106,
+      "date": "2026-02-16",
+      "createdAt": "2026-02-26T12:59:28.404Z",
+      "updatedAt": "2026-02-27T12:24:39.326Z"
+    },
+    {
+      "id": "exp_mm29dpm3_x3xoss",
+      "name": "Ração",
+      "categoryId": "cat_mm29cdd6_rgh95s",
+      "amountCents": 3799,
+      "date": "2026-02-25",
+      "createdAt": "2026-02-25T16:38:30.123Z",
+      "updatedAt": "2026-02-27T12:23:20.481Z"
+    },
+    {
+      "id": "exp_mm1oujkc_7gd32e",
+      "name": "CapCut",
+      "categoryId": "cat_assinaturas",
+      "amountCents": 1390,
+      "date": "2026-02-24",
+      "createdAt": "2026-02-25T07:03:43.500Z",
+      "updatedAt": "2026-02-25T07:03:43.500Z"
+    },
+    {
+      "id": "exp_mm1otvmv_aua1dx",
+      "name": "Mercado",
+      "categoryId": "cat_alimentacao",
+      "amountCents": 14500,
+      "date": "2026-02-23",
+      "createdAt": "2026-02-25T07:03:12.487Z",
+      "updatedAt": "2026-02-25T07:03:12.487Z"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "sessions": [
+    {
+      "id": "ses_mpm7qlml_8rmqoa",
+      "userId": "usr_mp1c3lbk_d3rzlx",
+      "tokenHash": "8ed7daacf853504d5563f8063c3674e1f708d9dc5460a157850f97d3cb736bdc",
+      "createdAt": "2026-05-26T05:47:02.781Z",
+      "lastSeenAt": "2026-05-26T05:47:02.781Z",
+      "expiresAt": "2026-06-02T05:47:02.780Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0"
+    }
+  ]
+}
